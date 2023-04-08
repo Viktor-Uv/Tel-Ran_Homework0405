@@ -1,0 +1,14 @@
+   0 date > /var/Viktor.txt
+   1 cat /var/Viktor.txt
+   2 cat /etc/group | tail -3
+   3 cat /etc/group | tail -3 | sed 's/user/Viktor/' >> /var/Viktor.txt
+   4 cat /var/Viktor.txt
+   5 vi /var/Viktor.txt
+   6 mkdir -r /root/newfolder/test
+   7 mkdir -p /root/newfolder/test
+   8 mv /var/Viktor.txt /root/newfolder/test/Viktor2.txt
+   9 ls -lah /var/
+  10 ls -lah /root/newfolder/test
+  11 cat /root/readme.txt >> /root/newfolder/test/Viktor2.txt
+  12 cat /root/newfolder/test/Viktor2.txt
+  13 history > history.txt
